@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charles Makwembo - ICT251 Activity 2</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to the World of Web Programming</h1>
+    <p>Charles Makwembo — Student ID: 202509566</p>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#hobbies">My Hobbies</a>
+    <a href="#plan">Learning Plan</a>
+    <a href="#photos">My Photos</a>
+    <a href="#media">My Media</a>
+    <a href="#contact">Contact</a>
+    <a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank" rel="noopener">MDN Web Docs</a>
+  </nav>
+
+  <!-- Main Content Area -->
+  <main>
+
+    <!-- About Me Section -->
+    <section id="about" class="content-section">
+      <h2>About Me</h2>
+      <p>
+        Hello World! This is my HTML document for Web Technologies. My name is Charles Makwembo (Student ID: 202509566), and I am currently studying Data Science and Information Technology at Mulungushi University. I am passionate about software engineering, web technologies, and mobile application development. Through this course, I aim to master modern web practices, build interactive user interfaces, and apply programmatic solutions to real-world software design challenges.
+      </p>
+    </section>
+
+    <!-- Hobbies Section (Preserving Activity 1 List) -->
+    <section id="hobbies" class="content-section">
+      <h2>My Hobbies</h2>
+      <ul>
+        <li>Chess</li>
+        <li>Studying</li>
+        <li>Coding</li>
+      </ul>
+    </section>
+
+    <!-- Learning Plan Section -->
+    <section id="plan" class="content-section">
+      <h2>My Learning Plan</h2>
+      <p>Here are three realistic steps I am taking to improve my web skills:</p>
+      <ol>
+        <li>Practice semantic HTML5 layout structures and responsive styling with CSS Flexbox and Grid.</li>
+        <li>Build dynamic and interactive client-side components using modern JavaScript techniques.</li>
+        <li>Version control my code with Git and deploy projects on GitHub Pages for real-world hosting experience.</li>
+      </ol>
+
+      <h3>Weekly Practice Schedule</h3>
+      <table>
+        <caption>My Weekly Web Development Practice Plan</caption>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Topic</th>
+            <th>Practice Task</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>Semantic HTML & Accessibility</td>
+            <td>Structure accessible forms with labels and input validation</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>CSS Box Model & Grid Layouts</td>
+            <td>Style responsive image galleries and media components</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>Embedded Media & Controls</td>
+            <td>Implement HTML5 video and audio players with full controls</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section id="photos" class="content-section">
+      <h2>My Photos</h2>
+      <div class="gallery">
+        <figure>
+          <img src="images/photo1.jpg" alt="Charles Makwembo working on coding projects">
+          <figcaption>Developing web and software applications in the computer lab.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/photo2.jpg" alt="Mulungushi University campus view">
+          <figcaption>Academic study environments across campus at Mulungushi University.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/photo3.jpg" alt="Data science workspace setup with code">
+          <figcaption>Collaborating with peers on programming assignments and web tasks.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Media Section -->
+    <section id="media" class="content-section">
+      <h2>My Media</h2>
+
+      <!-- Video Player -->
+      <div class="media-block">
+        <h3>Self-Introduction Video</h3>
+        <video controls width="480">
+          <source src="videos/intro.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p><strong>Transcript Summary:</strong> Hello! My name is Charles Makwembo, a Data Science and IT student at Mulungushi University. In this course, I hope to master responsive web design, semantic markup, and full-stack web integration.</p>
+      </div>
+
+      <!-- Audio Player -->
+      <div class="media-block">
+        <h3>Audio Clip</h3>
+        <audio controls>
+          <source src="videos/voice.aac" type="audio/aac">
+          Your browser does not support the audio element.
+        </audio>
+        <p>This short recording highlights why I enjoy chess and coding, and how strategic thinking helps me solve computer programming problems.</p>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="content-section">
+      <h2>Contact</h2>
+      <p><em>Note: This form is a browser demonstration only and does not submit data online.</em></p>
+
+      <form action="#" method="get">
+        <div class="form-group">
+          <label for="fullname">Full Name:</label>
+          <input type="text" id="fullname" name="fullname" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="topic">Topic:</label>
+          <select id="topic" name="topic">
+            <option value="general">General Query</option>
+            <option value="collaboration">Project Collaboration</option>
+            <option value="feedback">Feedback</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2026 Charles Makwembo (Student ID: 202509566) — ICT251 Activity 2</p>
+  </footer>
+
+</body>
+</html>
